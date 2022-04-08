@@ -1,0 +1,206 @@
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.mainHeader{
+  background-image:url(../img/whatwedo3.webp);
+  background-size: cover;
+  background-position: center;
+}
+.mainHeaderFilter{
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.mainHeader h1.header{
+  color: green;
+  font-size: 3rem;
+  margin: 2rem 0 5rem 0;
+}
+
+.mainHeader h3.header{
+  font-size: 4rem;
+}
+
+.mainHeader h5.header{
+  font-size: 2rem;
+}
+
+.mainHeader a{
+  font-size: 1.5rem;
+}
+
+.mainHeader h3.header,
+.mainHeader h5.header{
+  margin-bottom: 4rem;
+}
+
+.mainHeader .btn-large{
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+#aboutCourse{
+  padding: 3rem 0 4rem 0;
+  background-color: #000;
+}
+
+#aboutCourse p{
+  color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+#aboutCourse .col,
+#description .col{
+  padding: 0;
+}
+
+#aboutCourse h4,
+#description h4{
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+#description{
+  background-color: #f5ab41;
+}
+
+#description h5{
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
+#description p{
+  padding: 2rem;
+}
+
+#offerMain{
+  background-color: #f7d3a6;
+}
+
+#offerMain a.btn-large{
+  margin: 3rem;
+}
+
+#offerMain h4{
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+#offerMain ol.collection.background{
+  background-color: #f5ab41;
+}
+
+#offerMain ol.collection.background>li,
+#offerMain ul.with-header>li.collection-item
+{
+  background-color: #f7d3a6
+}
+
+#offerMain .collection-header{
+  background-color: #f5ab41;
+}
+
+#offerDescription{
+  background-color: #000;
+  padding-bottom: 5rem;
+}
+
+#offerDescription h3{
+  padding: 4rem
+}
+
+#offerDescription h5{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#offerDescription h4{
+  padding-top: 5rem;
+  text-decoration: underline;
+}
+
+#offerDescription p{
+  color: #fff;
+}
+
+footer img{
+  padding: 5rem;
+}
+
+footer a i{
+  padding: .5rem;
+}
+
+footer button{
+  background-color: transparent;
+  border: none;
+}
+
+footer button #submitBtn{
+  padding: 0 6rem;
+  margin-top: 2rem;
+}
+
+.input-field> label{
+  color: #fff;
+}
+
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
+  color: #fff;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly])+label {
+  color: #fff;
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+input[type=text].valid:not(.browser-default) {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly])+label {
+  color: #fff;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #fff;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
